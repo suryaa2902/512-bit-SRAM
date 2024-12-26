@@ -1,7 +1,7 @@
 # 512-bit-SRAM
 A 512-bit SRAM Cell
 
-The Verilog (.v) file above has the primary code for the working of the SRAM Cell and a testbench to test the simulation
+The Verilog (.v) file above has the primary code for the working of the SRAM Cell and a testbench to test the simulation. This code is an attempt at replicating the working of an SRAM cell created using Cadence Virtuoso.
 
 This project was initially created as a schematic using **Cadence Virtuoso**.
 
@@ -23,5 +23,14 @@ Dynamic transmission gate positive edge triggered master-slave D flip flop is us
 **DFF Design Schematic**
 
 ![image](https://github.com/user-attachments/assets/5de817d7-3f4c-4e3a-92cb-347d1207ea60)
+
+**SRAM Cell Parameters**
+
+![image](https://github.com/user-attachments/assets/47c164f4-245f-44a0-85e4-9f6bf3abce40)
+
+**Write Margin with varying Widths**
+
+![image](https://github.com/user-attachments/assets/b5b09522-0e8d-4b42-b6ac-ba4518948f6b)
+
 
 
