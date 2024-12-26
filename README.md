@@ -1,9 +1,9 @@
 # 512-bit-SRAM
 A 512-bit SRAM Cell
 
-The Verilog (.v) file above has the primary code for the working of the SRAM Cell and a testbench to test the simulation. This code is an attempt at replicating the working of an SRAM cell created using Cadence Virtuoso.
-
 This project was initially created as a schematic using **Cadence Virtuoso**.
+
+The Verilog (.v) file above has the primary code for the working of the SRAM Cell and a testbench to test the simulation. This code is an attempt at replicating the working of an SRAM cell created using Cadence Virtuoso.
 
 SRAM array with 512 cells having sizing as 100:150:230 [Wpu:Wax:Wpd] was designed. 4x16 dynamic decoder was designed to decode the WL from the address latched from the MSB of 6-bit dynamic transmission gate address registers. 
 
