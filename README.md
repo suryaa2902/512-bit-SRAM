@@ -16,6 +16,11 @@ A 4x16 row decoder is designed using NAND-NOR based hierarchical 2x4 decoder cha
 
 ![image](https://github.com/user-attachments/assets/58f70dfe-a0c1-4a6d-a25c-22e46099e8f8)
 
+The words were grouped bit-wise and the row and column decoders were used to select words and bits respectively, as shown in the image below.
+
+![image](https://github.com/user-attachments/assets/55aa27e8-6da7-4f00-af06-8cc224830379)
+
+
 ## Register Design
 
 Dynamic transmission gate positive edge triggered master-slave D flip flop is used to latch the address and data bits. When the clock is 0, the first stage transmission gate is turned on and the applied data is sampled and stored at the node after the first transmission gate. At the positive edge of the clock, the second stage transmission gate is on and the address bit is sampled at the output. In the transmission gate, NMOS and PMOS are sized equally since they aid each other and PMOS passes logic 1 and NMOS logic 0. The registers (Address, Read, and Write) are created using DFFs in a Master-Slave configuration. 
